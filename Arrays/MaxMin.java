@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class MaxMin{
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the no of array elements:");
         int n = scanner.nextInt();
