@@ -18,6 +18,22 @@ public class MissingNumber{
         }
         XOR1=XOR1^n;
        int misnum=XOR1^XOR2;
+         import java.util.Arrays;
+// Alternative Approach
+// class Solution {
+//     public int missingNumber(int[] nums) {
+//         int n = nums.length;
+//         int eSum = n * (n + 1) / 2; 
+//         int aSum = 0;
+
+//         for (int num : nums) {
+//             aSum += num;
+//         }
+
+//         return eSum - aSum; // Missing number
+//     }
+// }
+
        System.out.printf("The Missing Number in an Array is:%d\n",misnum);
    }
 }
