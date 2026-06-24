@@ -31,7 +31,7 @@ class Solution{
     }
   }
  return components;
-}
+ }
 }
 
 public class Main {
